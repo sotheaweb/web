@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('moon.jpg') ;
+}
+.container{
+    width: 50%;
+    height: 70vh;
+    background-color: skyblue;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+   
+}
+.box-1{
+    width: 10%;
+    height: 10%;
+    background-color: red;
+    order: 8;
+    border-radius: 20px;
+}
+.box-2{
+    width: 10%;
+    height: 10%;
+    background-color: red;
+    order: 7;
+}
+.box-3{
+    width: 10%;
+    height: 10%;
+    background-color: red;
+    order: 6;
+}
+.box-4{
+    width: 10%;
+    height: 10%;
+    background-color: red;
+    order: 5;
+}
+.box-5{
+    width: 10%;
+    height: 10%;
+    background-color: red;
+    order: 4;
+}
+.box-6{
+    width: 10%;
+    height: 10%;
+    background-color: red;
+    order: 3;
+}
+.box-7{
+    width: 10%;
+    height: 10%;
+    background-color: red;
+    order: 2;
+}
+.box-8{
+    width: 10%;
+    height: 10%;
+    background-color: red;
+    order: 1;
+}
