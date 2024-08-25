@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Moulpali&display=swap');
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.container{
+    width: 70%;
+    height: 80vh;
+    background-color: rgb(11, 98, 127);
+    margin: 20px auto;
+    padding: 20px;
+}
+p{
+    color: white;
+    font-size: 20px;
+    font-family: 'Moulpali';
+}
+.box{
+    width: 100%;
+    height: 10%;
+    /* background-color: blue; */
+}
+input{
+    width: 100%;
+    height: 100%;
+    padding-left: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+select{
+    width: 100%;
+    height: 10%;
+    padding-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+} 
+option{
+    font-size: 15px;
+} 
+.button{
+    width: 100%;
+    height: 30%;
+    /* background-color: red; */
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between  ;
+}
+.send {
+    width: 20%;
+    height: 40%;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+.send button{
+    background-color: green;
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.reset{
+    width: 20%;
+    height: 40%;
+    border: 2px solid yellow;
+    margin-right: 58%;
+    border-radius: 10px;
+}
+.reset button{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    font-size: 15px;
+    border-radius: 10px;
+}
+    
+    
